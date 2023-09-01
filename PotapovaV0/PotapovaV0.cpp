@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
+
+    int x;
+    cin >> x;
+    if (x == 0)
+        cout << "deision by zero\n";
+    else
+        cout << 10 / x;
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
